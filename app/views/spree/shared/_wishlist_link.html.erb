@@ -1,0 +1,5 @@
+<% if spree_current_user %>
+<li id="wishlist-link">
+	<%= link_to "My Wishlist", wishlists_path, :method => :get %>
+</li>
+<% end %>

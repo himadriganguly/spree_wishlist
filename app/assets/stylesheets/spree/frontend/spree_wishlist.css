@@ -1,0 +1,36 @@
+/*
+Placeholder manifest file.
+the installer will append this file to the app vendored assets here: 'vendor/assets/stylesheets/spree/frontend/all.css'
+*/
+
+div#wishlist {
+	margin-top: 20px;
+}
+
+div#wishlist a.wishlist-link {
+	background-color: #00ADEE;
+	background-image: none;
+	border: 1px solid rgba(0, 138, 189, 0.75);
+	border-radius: 0;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.4) inset;
+	color: #FFFFFF;
+	font-family: "Ubuntu",sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 6px 10px 5px;
+	text-shadow: none;
+	vertical-align: top;
+	font-size: 14px;
+	padding: 7px 10px;
+}
+div#wishlist a.wishlist-link:hover {
+	background-color: #404042;
+	background-image: none;
+	border-color: #404042;
+	color: #FFFFFF;
+}
+
+nav #main-nav-bar li#wishlist-link {
+	float: right;
+	margin-right: 10px;
+}

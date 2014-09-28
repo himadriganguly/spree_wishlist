@@ -1,0 +1,20 @@
+<h2 style="margin-bottom: 20px">Your Wishlist</h2>
+<table style="width: 100%">
+	<thead>
+		<tr>
+			<th>Product Image</th>
+			<th>Product Name</th>
+			<th>Remove From Wishlist</th>
+		</tr>		
+	</thead>
+	<tbody>
+		<% @wishlists.each do |wishlist| %>
+			<tr>
+				<td style="text-align: center"><%= link_to (small_image(wishlist.product, :itemprop => "image")), product_path(wishlist.product) %></td>
+				<td style="text-align: center"><%= link_to (wishlist.product.name), product_path(wishlist.product) %></td>
+				<td style="text-align: center"><%= link_to "Delete", wishlist_path(wishlist.product.id), :method=> :delete %></td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>
+

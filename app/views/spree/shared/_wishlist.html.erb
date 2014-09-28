@@ -1,0 +1,9 @@
+<% if spree_current_user %>
+<div id="wishlist">
+	<% unless @wishlist_check %>
+		<%= link_to "Add to Wishlist", wishlists_path(:product_id => @product.id), :method => :post, :class => "wishlist-link" %>
+	<% else %>
+		<%= link_to "Remove from Wishlist", wishlists_path(:product_id => @product.id), :method => :delete, :class => "wishlist-link" %>
+	<% end %>
+</div>
+<% end %>
