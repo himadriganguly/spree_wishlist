@@ -1,10 +1,8 @@
 # SpreeWishlist
-===============
 
 This is an extension for SpreeeCommerce. Using this extension registered user can add any product to their wishlist and also can delete them
 
 ## Installation
----------------
 
 Just add this line to your `Gemfile`:
 
@@ -19,7 +17,6 @@ rails g spree_wishlist:install
 ```
 
 ## Contribute
--------------
 
 If you like to contribute to the project please create a pull request and I will do my best to merge appropriately.
 
