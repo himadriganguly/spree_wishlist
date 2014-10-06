@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'spree_wishlist'
-  s.version     = '1.0.0'
+  s.version     = '1.0.1'
   s.summary     = 'Wishlist of product'
   s.description = 'This is an extension for SpreeeCommerce. Using this extension registered user can add any product to their wishlist and also can delete them'
   s.required_ruby_version = '>= 1.9.3'
